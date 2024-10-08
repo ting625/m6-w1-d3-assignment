@@ -56,7 +56,6 @@ const InventoryEdit = () => {
 
   return (
     <div>
-      <AppNavbar />
       <Container>
         {page_title}
         <Form onSubmit={handleSubmit}>

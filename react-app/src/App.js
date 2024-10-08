@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} /> 
+          <Route path="/" element={<InventoryList />} /> 
           <Route path="/inventories" element={<InventoryList />} /> 
           <Route path="/inventories/:id" element={<InventoryEdit />} /> 
         </Routes>
