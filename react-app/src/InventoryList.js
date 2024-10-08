@@ -44,8 +44,6 @@ class InventoryList extends Component {
             return <p>Loading...</p>;
         }
 
-        console.log(inventories);
-
         const inventoryList = inventories.map(inventory => {
 
             return (

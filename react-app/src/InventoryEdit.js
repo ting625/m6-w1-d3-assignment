@@ -74,7 +74,7 @@ const InventoryEdit = () => {
           </FormGroup>
 
           <FormGroup>
-            <Label for="qty" className="h5 mt-3">Author</Label>
+            <Label for="author" className="h5 mt-3">Author</Label>
             <Input
               type="text"
               name="author"
@@ -84,7 +84,6 @@ const InventoryEdit = () => {
               autoComplete="author"
             />
           </FormGroup>
-
 
           <FormGroup>
             <Button color="primary" type="submit" className="mt-3">Save</Button>{' '}
@@ -97,6 +96,7 @@ const InventoryEdit = () => {
               Cancel
             </Button>
           </FormGroup>
+
         </Form>
       </Container>
     </div>
